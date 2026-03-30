@@ -1,0 +1,9 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-27 16:09:29,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-27 16:09:33,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Sexe: F (Volume restant : 19188)
+2026-03-27 16:09:40,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 16:09:41,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 75.92505832091854, ""Ancien Algo"": 74.33200268447717}",SUCCESS,Comparaison reussie sur 15127 minutes communes.
+2026-03-27 16:09:41,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard
+2026-03-27 16:10:24,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 16:10:25,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 73.28005064691054, ""Ancien Algo"": 75.90330644680836}",SUCCESS,Comparaison reussie sur 45562 minutes communes.
+2026-03-27 16:10:25,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard

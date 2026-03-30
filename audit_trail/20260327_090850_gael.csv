@@ -1,0 +1,13 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-27 09:08:50,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-27 09:09:05,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 09:09:14,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 41.23758378210906, ""Ancien Algo"": 33.75656089827365}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-27 09:09:14,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard
+2026-03-27 09:09:26,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 09:09:35,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 41.23758378210906, ""Ancien Algo"": 33.75656089827365}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-27 09:09:35,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard
+2026-03-27 09:09:41,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""algo_corrompu.sav"", ""baseline_model.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 09:09:43,gael,infereur,ERREUR_INFERENCE,"[""algo_corrompu.sav"", ""baseline_model.sav""]",{},ERREUR,Fichier illisible : 'algo_corrompu.sav'. Veuillez vérifier que le fichier n'est pas corrompu.
+2026-03-27 09:09:55,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""model_lags.sav"", ""baseline_model.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-27 09:10:03,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 33.75656089827365, ""Ancien Algo"": 41.23758378210906}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-27 09:10:03,gael,rapport,GENERATION_RAPPORT_PDF,"[""model_lags.sav"", ""baseline_model.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard

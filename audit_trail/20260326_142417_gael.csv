@@ -1,0 +1,10 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-26 14:24:17,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-26 14:27:34,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Aucun (Toutes les donnees) (Volume restant : 661050)
+2026-03-26 14:27:44,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""test.sav"", ""baseline_model.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-26 14:27:49,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""model_lags.sav"", ""baseline_model.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-26 14:27:57,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 33.75656089827365, ""Ancien Algo"": 41.23758378210906}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-26 14:27:57,gael,rapport,GENERATION_RAPPORT_PDF,"[""model_lags.sav"", ""baseline_model.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard
+2026-03-26 14:28:08,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""baseline_model.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-26 14:28:16,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 33.75656089827365, ""Ancien Algo"": 33.75656089827365}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-26 14:28:16,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""baseline_model.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard

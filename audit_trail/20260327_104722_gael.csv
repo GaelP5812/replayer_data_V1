@@ -1,0 +1,3 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-27 10:47:22,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-27 10:47:28,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Sexe: M | Taille: 5-200cm (Volume restant : 301994)

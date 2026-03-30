@@ -1,0 +1,4 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-26 14:34:20,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-26 14:34:21,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Aucun (Toutes les donnees) (Volume restant : 661050)
+2026-03-26 14:34:28,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""algo_corrompu.sav"", ""algo_corrompu.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav

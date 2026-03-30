@@ -1,0 +1,5 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-26 14:35:08,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-26 14:35:11,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Sexe: M (Volume restant : 373705)
+2026-03-26 14:35:17,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""algo_corrompu.sav"", ""algo_corrompu.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-26 14:35:18,gael,infereur,ERREUR_INFERENCE,"[""algo_corrompu.sav"", ""algo_corrompu.sav""]",{},SUCCESS,Fichier illisible : 'algo_corrompu.sav'. Veuillez vérifier que le fichier n'est pas corrompu.

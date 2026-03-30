@@ -1,0 +1,7 @@
+dirty_data/
+data/
+__pycache__/
+*.sav
+model.py
+dist/
+Replayer

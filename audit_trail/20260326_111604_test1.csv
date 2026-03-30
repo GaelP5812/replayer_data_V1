@@ -1,0 +1,5 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-26 11:16:04,test1,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-26 11:47:04,test1,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-26 11:47:13,test1,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 41.23758378210906, ""Ancien Algo"": 33.75656089827365}",SUCCESS,Comparaison reussie sur 136247 minutes communes.
+2026-03-26 11:47:13,test1,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard

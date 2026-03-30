@@ -1,0 +1,9 @@
+timestamp,utilisateur,module,action,fichiers,scores,statut,message
+2026-03-30 09:21:25,gael,systeme,OUVERTURE_SESSION,[],{},SUCCESS,Connexion reussie
+2026-03-30 09:21:36,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Sexe: M (Volume restant : 373705)
+2026-03-30 09:21:56,gael,infereur,LANCEMENT_DOUBLE_INFERENCE,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,Lancement de la double inference sur les modeles .sav
+2026-03-30 09:22:04,gael,comparateur,COMPARAISON_GOLD,[],"{""Nouvel Algo"": 39.74390919536104, ""Ancien Algo"": 32.11498546480837}",SUCCESS,Comparaison reussie sur 75747 minutes communes.
+2026-03-30 09:22:04,gael,rapport,GENERATION_RAPPORT_PDF,"[""baseline_model.sav"", ""model_lags.sav""]",{},SUCCESS,PDF genere pour le projet : Comparaison_Standard
+2026-03-30 09:34:19,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Aucun (Toutes les donnees) (Volume restant : 661050)
+2026-03-30 09:34:25,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Poids: 50-120kg (Volume restant : 661050)
+2026-03-30 09:34:44,gael,donnees,APPLICATION_FILTRES,[],{},SUCCESS,Filtres appliques : Poids: 80-120kg (Volume restant : 236488)
